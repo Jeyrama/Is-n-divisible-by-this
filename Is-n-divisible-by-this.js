@@ -17,3 +17,5 @@ function isDivisible() {
   const divisors = [...arguments].slice(1);
   return divisors.every(divisor => first % divisor == 0);
 }
+
+// or
