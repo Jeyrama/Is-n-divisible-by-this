@@ -19,3 +19,7 @@ function isDivisible() {
 }
 
 // or
+
+function isDivisible(first, ...divisors) {
+  return divisors.every(divisor => first % divisor == 0);
+}
