@@ -11,3 +11,9 @@ Example:
 
 
 // Solution
+
+function isDivisible() {
+  const first = [...arguments][0];
+  const divisors = [...arguments].slice(1);
+  return divisors.every(divisor => first % divisor == 0);
+}
