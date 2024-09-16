@@ -8,3 +8,6 @@ Example:
   (100,5,4,10,25,20)--> true
   (12,7)--> false because 12 is not divisible by 7
 */
+
+
+// Solution
